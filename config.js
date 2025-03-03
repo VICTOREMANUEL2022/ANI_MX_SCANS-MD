@@ -14,15 +14,15 @@ const __dirname = global.__dirname(import.meta.url)
 
 
 global.owner = [
-['5215517489568','𝓢𝓾𝓹𝓻𝓮𝓶𝓮 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷 - Creador 👁️', false],
-['5215533827255', '𝓡𝓮𝔂 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷 - Creador 👑', true]
+['59894243071','victory- Creador 👁️', false],
+['59894243071', 'victory - Creador 👑', true]
 ] // Cambia los numeros que quieras
 
 /**********GLOBAL INFO*****************/
-global.packname = '(☞ﾟ∀ﾟ)☞'
+global.packname = 'victory'
 global.gt = '(☞ﾟ∀ﾟ)☞'
 global.amsicon = `🌎`
-global.author = '𝓡𝓮𝔂 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷'
+global.author = 'victory'
 global.wm = '🌎ANI MX SCANS🌏'
 global.igfg = '★🌎ANI MX SCANS🌏★'
 global.paypal = `https://www.paypal.me/AMxScan`
@@ -44,8 +44,8 @@ global.gaportes = 'https://chat.whatsapp.com/JArEosfq4x89SGKnQKH6Td'
 /***************GLOBAL CONFIG****************/
 global.raiz = `./`
 global.anidir = `ANI_MX_SCANS`
-global.dirP = !fs.existsSync(anidir) ? __dirname : join(raiz, anidir) //Solo si quieres arrancar el bot desde una carpeta diferente, por ejemplo: /ANI_MX_SCANS
-global.sessionNameAni = `ANIMXSCANS`
+global.dirP = !fs.existsSync(anidir) ? __dirname : join(raiz, anidir) //Solo si quieres arrancar el bot desde una carpeta diferente, por ejemplo: /ANI_MX_SCANS victory
+global.sessionNameAni = `ANIMXSCANS victory`
 global.authFolder = join(dirP, sessionNameAni)
 global.authFolderRespald = join(dirP, `sesionRespaldo`)
 global.dataBases = join(dirP, 'dataBases')
@@ -156,13 +156,13 @@ global.groupID = '@g.us'
 global.sBroadCastID = `status@broadcast`
 global.newsletterID = `@newsletter`
 global.lid = '@lid'
-global.suittag = ['5215532867844'] 
+global.suittag = ['59894243071'] 
 global.espadmins = []
 global.prems = [] 
 /********QUOTEDS*************** */
 global.fgif = {key: { participant : '0@s.whatsapp.net'}, message: { "videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999','gifPlayback': 'true','caption': bottime, 'jpegThumbnail': imagen4}}}
-global.estado = {key: {participant: '0@s.whatsapp.net', remoteJid: '0@s.whatsapp.net'}, message: {groupInviteMessage: {groupJid: "1234567890-9876543210@g.us", inviteCode: `\n`, groupName: groupID, caption: `${userID}\n${igfg}`, jpegThumbnail: imagen2}}}
-global.q = { key: { fromMe: false, participant: userID, ...(false ? { remoteJid: "9876543210-0123456789@g.us" } : {}) }, message: { extendedTextMessage: { text: '', title: wm, 'jpegThumbnail': null }}}
+global.estado = {key: {participant: '0@s.whatsapp.net', remoteJid: '0@s.whatsapp.net'}, message: {groupInviteMessage: {groupJid: "59894243071-9876543210@g.us", inviteCode: `\n`, groupName: groupID, caption: `${userID}\n${igfg}`, jpegThumbnail: imagen2}}}
+global.q = { key: { fromMe: false, participant: userID, ...(false ? { remoteJid: "59894243071-0123456789@g.us" } : {}) }, message: { extendedTextMessage: { text: '', title: wm, 'jpegThumbnail': null }}}
 
 await import ('./api.js');
 await import ('./rpg.js');
