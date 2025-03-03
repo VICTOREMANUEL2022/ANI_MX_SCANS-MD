@@ -304,3 +304,4 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 <a href="https://github.com/ReyEndymion"><img src="https://github.com/ReyEndymion.png" width="250" height="250" alt="ReyEndymion"/></a>
 
 `ANI_MX_SCANS-MD _ By Rey Endymion`
+Víctor/bot_batalla
